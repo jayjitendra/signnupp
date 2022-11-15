@@ -1,0 +1,93 @@
+img{
+  width:200px;
+}
+ p{
+  color:#c74b4b;
+ }
+ .pop{
+  color: #cc0000;
+  font-size: 40px;
+  font-weight: 1000;
+  margin-left: 200px;
+ }
+
+ 
+ #register, #login {
+  width: 300px;
+  border: 1px solid #6d0526;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+
+label, form input {
+  display: block;
+  width:90%;
+  margin-bottom: 5px;
+}
+
+textarea{
+  width: 80%;
+  padding: 30px;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+#uname_meter{
+  width: 95%;
+}
+
+#submit-button {
+  background-color: #00BFFF;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 6px 10px;
+  color: #ffffff;
+  border: radius 3px;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
+
+.container{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(80, 81, 83);
+  margin-left:300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width:25%;
+}
+/* 
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRXSDkd2aunuDcX_fzKRZ7Vb2mAZFrMVWXzHS1x_MCU2KzUM3cdVqIqVYJ-SbfnwmkeWw&usqp=CAU);
+} */
+
+body{
+  background-size: cover;
+  background-image: url(https://cdn.wallpapersafari.com/87/3/AuKx4c.jpg);
+}
+
+@media  (max-width:480px) {
+  body{
+      display: block;
+  }
+}
+
+
